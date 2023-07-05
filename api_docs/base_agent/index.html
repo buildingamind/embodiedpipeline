@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://origin.luddy.indiana.edu/api_docs/base_agent/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Base agent - Embodied Pipeline Benchmarks</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Base agent";
+        var mkdocs_page_input_path = "api_docs/base_agent.md";
+        var mkdocs_page_url = "/api_docs/base_agent/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Embodied Pipeline Benchmarks
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../experiments.md">Experiments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../Parsing/">Parsing</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Embodied Pipeline Benchmarks</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Base agent</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1"></h1>
+<h2 id="baseagent">BaseAgent</h2>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L24">source</a></p>
+<pre><code class="language-python">BaseAgent(
+   agent_id = 'DefaultAgent', log_path = './Brains', **kwargs
+)
+</code></pre>
+<p><strong>Methods:</strong></p>
+<h3 id="train">.train</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L64">source</a></p>
+<pre><code class="language-python">.train(
+   env, eps
+)
+</code></pre>
+<h3 id="test">.test</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L68">source</a></p>
+<pre><code class="language-python">.test(
+   env, eps, record_prefix = 'rest'
+)
+</code></pre>
+<hr />
+<p>Test the agent in the given environment for the set number of steps</p>
+<p><strong>Args</strong></p>
+<ul>
+<li><strong>env</strong>  : gym environment wrapper</li>
+<li><strong>eps</strong>  : number of test episodes</li>
+<li><strong>record_prefix</strong> (str, optional) : recording file name prefix</li>
+</ul>
+<h3 id="save">.save</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L108">source</a></p>
+<pre><code class="language-python">.save(
+   path: Optional[str] = None
+)
+</code></pre>
+<hr />
+<p>Save agent prains to the specified path</p>
+<p><strong>Args</strong></p>
+<ul>
+<li><strong>path</strong> (str) : Path value to save the model</li>
+</ul>
+<h3 id="load">.load</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L124">source</a></p>
+<pre><code class="language-python">.load(
+   path = None
+)
+</code></pre>
+<hr />
+<p>Load the model from the specified path</p>
+<p><strong>Args</strong></p>
+<ul>
+<li><strong>path</strong> (str) : model saved path. Defaults to None.</li>
+</ul>
+<h3 id="check_env">.check_env</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L137">source</a></p>
+<pre><code class="language-python">.check_env(
+   env
+)
+</code></pre>
+<hr />
+<p>Check environment</p>
+<p><strong>Args</strong></p>
+<ul>
+<li><strong>env</strong> (vector environment) : vector env check for correctness</li>
+</ul>
+<p><strong>Raises</strong></p>
+<ul>
+<li><strong>Exception</strong>  : raise exception if env check fails</li>
+</ul>
+<p><strong>Returns</strong></p>
+<ul>
+<li><strong>bool</strong>  : env check is successful or failed</li>
+</ul>
+<h3 id="plot_results">.plot_results</h3>
+<p><a href="/home/mchivuku/projects/embodied_pipeline/benchmark_experiments/src/simulation/common/base_agent.py/#L157">source</a></p>
+<pre><code class="language-python">.plot_results(
+   steps: int, plot_name = 'chickai-train'
+)
+</code></pre>
+<hr />
+<p>Generate reward plot for training</p>
+<p><strong>Args</strong></p>
+<ul>
+<li><strong>steps</strong> (int) : number of training steps</li>
+<li><strong>plot_name</strong> (str, optional) : Name of the reward plot. Defaults to "chickai-train".</li>
+</ul>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
