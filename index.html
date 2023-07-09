@@ -123,15 +123,9 @@ Lab</strong></a></strong>. This pipeline provides all necessary components for s
 
 </code></pre>
 <ul>
-<li>
-<p><code>src/analysis</code><strong>: </strong>Contains the code for visualizing and analyzing results from the simulation experiments.</p>
-</li>
-<li>
-<p><code>data</code>: This folder contains executables, experimental results, and analysis results. A user will rarely interact with this folder directly. Most scripts assume this directory and all its contents exist.</p>
-</li>
-<li>
-<p><code>src/simulation</code>: Contains the code for running experiments with simulated agents. Following is the structure of simulation folder:</p>
-</li>
+<li><code>src/analysis</code><strong>: </strong>Contains the code for visualizing and analyzing results from the simulation experiments.</li>
+<li><code>data</code>: This folder contains executables, experimental results, and analysis results. A user will rarely interact with this folder directly. Most scripts assume this directory and all its contents exist.</li>
+<li><code>src/simulation</code>: Contains the code for running experiments with simulated agents. Following is the structure of simulation folder:</li>
 </ul>
 <p>```
   ├── agent
@@ -146,43 +140,25 @@ Lab</strong></a></strong>. This pipeline provides all necessary components for s
   ├── run_parsing_icm.py
   ├── run_viewpoint_exp.py
   └── utils.py</p>
-<p>```</p>
-<ul>
-<li>
-<p><code>Unity</code>: Contains a Unity project which is a virtual replication of the VR Chambers used in contolled-rearing studies from the lab. This folder should be opened as a Unity project in the Unity Editor.</p>
-</li>
-<li>
-<p><code>tests</code>: Contains unit tests to test the environment and others</p>
-</li>
-<li>
-<p><code>docs</code>: Contains project documentation </p>
-</li>
-<li>
-<p><code>scripts</code>: Contains bash scripts to run the respective experiment</p>
-</li>
-</ul>
+<p><code>``
+*</code>Unity<code>: Contains a Unity project which is a virtual replication of the VR Chambers used in contolled-rearing studies from the lab. This folder should be opened as a Unity project in the Unity Editor.
+*</code>tests<code>: Contains unit tests to test the environment and others
+*</code>docs<code>: Contains project documentation
+*</code>scripts`: Contains bash scripts to run the respective experiment</p>
 <h2 id="how-to-install"><strong>How to Install</strong></h2>
 <p>In this section, you will pull this repository from Github, open the Unity environment, and build the ChickAI environment as an executable.</p>
 <h3 id="codebase-installation"><strong>Codebase Installation</strong></h3>
 <ol>
-<li>
-<p>Install Git and/or Github Desktop. If you install Git, you'll be able to interact with Github through the command line. You can download Git using the directions here: <strong><a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></strong>. If you install Git Desktop, you can use a GUI to interact with Github. You can install Github Desktop by following the directions here: <strong><a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/">https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/</a></strong>. For the following steps, I will provide the command line arguments (but you can use the GUI to find the same options in Github Desktop).</p>
-</li>
-<li>
-<p>To download the repository, click the Code button on the pipeline_embodied repo. Copy the provided web URL. Then follow the code below to change to directory where you want the repo (denoted here as MY_FOLDER) and then clone the repo.</p>
-</li>
+<li>Install Git and/or Github Desktop. If you install Git, you'll be able to interact with Github through the command line. You can download Git using the directions here: <strong><a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></strong>. If you install Git Desktop, you can use a GUI to interact with Github. You can install Github Desktop by following the directions here: <strong><a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/">https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/</a></strong>. For the following steps, I will provide the command line arguments (but you can use the GUI to find the same options in Github Desktop).</li>
+<li>To download the repository, click the Code button on the pipeline_embodied repo. Copy the provided web URL. Then follow the code below to change to directory where you want the repo (denoted here as MY_FOLDER) and then clone the repo.</li>
 </ol>
 <p><code>cd MY_FOLDER
-   git clone URL_YOU_COPIED_GOES_HERE</code></p>
-<ol>
-<li>Checkout the branch you want to be extra sure that you're using the right branch. </li>
-</ol>
+   git clone URL_YOU_COPIED_GOES_HERE</code>
+3. Checkout the branch you want to be extra sure that you're using the right branch.</p>
 <p><code>cd pipeline_embodied
-   git checkout DESIRED_BRANCH</code></p>
-<ol>
-<li><strong>(Highly Recommended) </strong><a href="https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/" title="Link for how to set-up a virtual env">create and configure a virtual environment</a>
-   <strong><em>*steps described below :</em></strong>*</li>
-</ol>
+   git checkout DESIRED_BRANCH</code>
+4. <strong>(Highly Recommended) </strong><a href="https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/" title="Link for how to set-up a virtual env">create and configure a virtual environment</a>
+   <strong><em>*steps described below :</em></strong>*</p>
 <p>```
    conda create -n pipeline_embodied_env python=3.8
    conda activate pipeline_embodied_env
@@ -213,7 +189,7 @@ Lab</strong></a></strong>. This pipeline provides all necessary components for s
 <p>More information related to details on the experiment can be found on following pages.</p>
 <ul>
 <li><a href="Parsing/"><strong>Parsing Experiment</strong></a></li>
-<li>[<strong>ViewPoint Experiment</strong>](</li>
+<li><strong>ViewPoint Experiment</strong></li>
 </ul>
               
             </div>
@@ -262,5 +238,5 @@ Lab</strong></a></strong>. This pipeline provides all necessary components for s
 
 <!--
 MkDocs version : 1.4.3
-Build Date UTC : 2023-07-05 02:00:53.171611+00:00
+Build Date UTC : 2023-07-09 17:03:52.990599+00:00
 -->

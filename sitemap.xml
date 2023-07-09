@@ -2,72 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://origin.luddy.indiana.edu/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/Parsing/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://origin.luddy.indiana.edu/ViewInvariant/</loc>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/base_agent/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/base_experiment/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/chickai_env_wrapper/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/dvs_wrapper/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/icm/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/logger/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/parsing_env_wrapper/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/supervised_agent/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/supervised_save_bestmodel_callback/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/unsupervised_agent/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://origin.luddy.indiana.edu/api_docs/viewpoint_env_wrapper/</loc>
-         <lastmod>2023-07-05</lastmod>
+         <lastmod>2023-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
